@@ -66,15 +66,14 @@ a {
     background-image: url(../images/square.svg);
     height: 30px;
     width: 30px;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
      -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);      
 }
-
-
-
 
 .icon {
     padding: 10px;
@@ -89,4 +88,13 @@ a {
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg); 
+}
+
+.billboard {
+     background-image: url(../images/DSC_0400.jpg);
+     width: 100%;
+    height:50vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
