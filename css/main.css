@@ -11,7 +11,7 @@ html {
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
     text-size-adjust:100%;
-     background-color: #126b75;   
+    background-color: #126b75;   
 }
 
 *, *::before, *::after {
@@ -19,6 +19,7 @@ html {
 }
 
 body {
+    color: white;
     margin: 0;
     padding: 0;
     text-align: left;
@@ -46,7 +47,46 @@ a {
      text-align: right;
 }
 
+.nav .text:hover,
+.nav .text:focus,
+.nav .text:active {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	text-align: center;
+    margin-left:-15px;
+    margin-top: -5px;
+ }
+
+.diamond:hover,
+.diamond:focus,
+.diamond:active {
+    background-image: url(../images/square.svg);
+    height: 30px;
+    width: 30px;
+     -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);      
+}
+
+
+
+
 .icon {
     padding: 10px;
     height:130px;
+}
+
+.media {
+    height: 35px;
+    padding-right: 10px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); 
 }
