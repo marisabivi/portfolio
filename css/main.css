@@ -11,7 +11,7 @@ html {
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
     text-size-adjust:100%;
-    background-color: #126b75;   
+    background-color: black;   
 }
 
 *, *::before, *::after {
@@ -26,8 +26,14 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: #126b75;
     padding: 0;
+}
+
+.nav {
+    position: absolute;
+    top: 1.8em;
+    right: 0;
 }
 
 a {
@@ -56,14 +62,14 @@ a {
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
 	text-align: center;
-    margin-left:-15px;
-    margin-top: -5px;
+    margin-left:-21px;
+    margin-top: -4px;
  }
 
 .diamond:hover,
 .diamond:focus,
 .diamond:active {
-    background-image: url(../images/square.svg);
+    background-image: url(../images/square-b.svg);
     height: 30px;
     width: 30px;
     margin-left: 1.5em;
@@ -77,7 +83,7 @@ a {
 
 .icon {
     padding: 10px;
-    height:130px;
+    height:100px;
 }
 
 .media {
@@ -91,10 +97,20 @@ a {
 }
 
 .billboard {
-     background-image: url(../images/DSC_0400.jpg);
-     width: 100%;
+    background-image: url(../images/DSC_0400.jpg);
+    width: 100%;
     height:50vh;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.title {   
+    text-align: center;
+}
+
+.work {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
 }
