@@ -31,10 +31,15 @@ header {
 }
 
 .line{
-
     height:1px;
     border-bottom:1px solid white;
     width: 20em;
+}
+
+.nav .line :hover 
+.nav .line :focus 
+.nav .line :active {
+    background-color: #535352;
 }
 
 .nav {
@@ -50,24 +55,18 @@ a {
 
 .social li {
     list-style: none;
+    display: inline-block;
 }
 
 .nav li {
-     display:block;
      list-style: none;
      text-align: center;
-     padding-left: -2em;
 }
 
-.nav .text:hover,
-.nav .text:focus,
-.nav .text:active {
-}
-
-.icon {
-    padding: 10px;
-    width:60%;
-    height:auto;
+.nav .li:hover,
+.nav .li:focus,
+.nav .li:active {
+    background-color: #535352;
 }
 
 .media {
@@ -82,12 +81,11 @@ a {
 
 .hide-2 {
     margin: 2em 0 1px 0;
-    text-align: center;
 }
 
 .hide-1 {
-        display: none;
-    }
+    display: none;
+}
 
 .billboard {
     background-image:url(../images/dia.svg), url(../images/placeholder.jpg) ;
@@ -98,25 +96,28 @@ a {
     background-size: 100px, cover;
 }
 
-.title {   
-    text-align: center;
-}
-
 .work {
     width: 100%;
     margin: 0 auto;
     display: block;
 }
 
+.grey {
+    filter: url(filters.svg#grayscale)
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+.grey:hover {
+    filter:none;
+    -webkit-filter: none;
+}
+
 @media only screen and (min-width: 20em) {
     
 }
+
 @media only screen and (min-width: 40em) {
-    .icon {
-        margin-left: 140%;
-        width:60%;
-        height:auto;
-    }
     
     .billboard {
         background-image:url(../images/dia2.svg), url(../images/placeholder.jpg) ;
@@ -125,7 +126,7 @@ a {
         background-position: center left, center;
         background-repeat: no-repeat, no-repeat;
         background-size: 130px, cover;
-}
+    }
     
     .hide-2 {
             display:none;
@@ -138,18 +139,9 @@ a {
 }
 
 @media only screen and (min-width: 60em) {
-    .icon {
-        margin-left: 230%;
-        width:60%;
-        height:auto;
-    }
     
 }
 
 @media only screen and (min-width: 90em) {   
-    .icon {
-        /*margin-left: 400%;*/
-        width:60%;
-        height:auto;
-    }
+    
 }
