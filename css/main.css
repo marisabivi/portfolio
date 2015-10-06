@@ -11,7 +11,7 @@ html {
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
     text-size-adjust:100%;
-    background-color: grey
+    background-color: #747474
     /*background-color: #fafbea;*/
 }
 
@@ -28,6 +28,13 @@ body {
 
 header {
     padding: 0;
+}
+
+.line{
+
+    height:1px;
+    border-bottom:1px solid white;
+    width: 20em;
 }
 
 .nav {
@@ -85,10 +92,10 @@ a {
 .billboard {
     background-image:url(../images/dia.svg), url(../images/placeholder.jpg) ;
     width: 100%;
-    height:55vh;
-    background-position: center top;
+    height:61vh;
+    background-position: center top, center;
     background-repeat: no-repeat, no-repeat;
-    background-size: top center, cover;
+    background-size: 100px, cover;
 }
 
 .title {   
@@ -114,10 +121,10 @@ a {
     .billboard {
         background-image:url(../images/dia2.svg), url(../images/placeholder.jpg) ;
         width: 100%;
-        height:75vh;
-        background-position: center right, center;
+        height:100vh;
+        background-position: center left, center;
         background-repeat: no-repeat, no-repeat;
-        background-size: 25%, cover;
+        background-size: 130px, cover;
 }
     
     .hide-2 {
