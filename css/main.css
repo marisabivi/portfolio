@@ -11,7 +11,8 @@ html {
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
     text-size-adjust:100%;
-    background-color: black;   
+    background-color: grey
+    /*background-color: #fafbea;*/
 }
 
 *, *::before, *::after {
@@ -19,19 +20,17 @@ html {
 }
 
 body {
-    color: white;
+    color: black;
     margin: 0;
     padding: 0;
     text-align: left;
 }
 
 header {
-    background-color: #126b75;
     padding: 0;
 }
 
 .nav {
-    position: absolute;
     top: 1.8em;
     right: 0;
 }
@@ -39,51 +38,29 @@ header {
 a {
     color: white;
     text-decoration: none;
-    display:inline-block;
+    display:block;
 }
 
 .social li {
-    display:inline-block;
     list-style: none;
 }
 
 .nav li {
-     display:inline-block;
+     display:block;
      list-style: none;
-     text-align: right;
+     text-align: center;
+     padding-left: -2em;
 }
 
 .nav .text:hover,
 .nav .text:focus,
 .nav .text:active {
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
-	text-align: center;
-    margin-left:-21px;
-    margin-top: -4px;
- }
-
-.diamond:hover,
-.diamond:focus,
-.diamond:active {
-    background-image: url(../images/square-b.svg);
-    height: 30px;
-    width: 30px;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-     -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);      
 }
 
 .icon {
     padding: 10px;
-    height:100px;
+    width:60%;
+    height:auto;
 }
 
 .media {
@@ -96,13 +73,22 @@ a {
     transform: rotate(-45deg); 
 }
 
+.hide-2 {
+    margin: 2em 0 1px 0;
+    text-align: center;
+}
+
+.hide-1 {
+        display: none;
+    }
+
 .billboard {
-    background-image: url(../images/placeholder.svg);
+    background-image:url(../images/dia.svg), url(../images/placeholder.jpg) ;
     width: 100%;
-    height:50vh;
+    height:55vh;
     background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat, no-repeat;
+    background-size: top center, cover;
 }
 
 .title {   
@@ -113,4 +99,50 @@ a {
     width: 100%;
     margin: 0 auto;
     display: block;
+}
+
+@media only screen and (min-width: 20em) {
+    
+}
+@media only screen and (min-width: 40em) {
+    .icon {
+        margin-left: 140%;
+        width:60%;
+        height:auto;
+    }
+    
+    .billboard {
+        background-image:url(../images/dia2.svg), url(../images/placeholder.jpg) ;
+        width: 100%;
+        height:75vh;
+        background-position: center right, center;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 25%, cover;
+}
+    
+    .hide-2 {
+            display:none;
+            visibility: none;
+    }
+
+    .hide-1 {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .icon {
+        margin-left: 230%;
+        width:60%;
+        height:auto;
+    }
+    
+}
+
+@media only screen and (min-width: 90em) {   
+    .icon {
+        /*margin-left: 400%;*/
+        width:60%;
+        height:auto;
+    }
 }
