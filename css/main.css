@@ -11,8 +11,8 @@ html {
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
     text-size-adjust:100%;
-    background-color: #747474
-    /*background-color: #fafbea;*/
+    background-color: #747474;
+    /*background-color: #178e9c;*/
 }
 
 *, *::before, *::after {
@@ -28,6 +28,14 @@ body {
 
 header {
     padding: 0;
+}
+
+.text {
+    margin-left: 1em; 
+}
+
+.text2 {
+   margin-left: 2.1em;  
 }
 
 .line{
@@ -104,16 +112,23 @@ a {
     display: block;
 }
 
-@media only screen and (min-width: 20em) {
+.pad-top-3{
+        padding-top: 1.5rem;
+    }
+
+@media only screen and (min-width: 25em) {
     
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 38em) {
+     .island-2-2 {
+        padding: 0.7500rem;
+        } 
     
     .billboard {
         background-image:url(../images/dia2.svg), url(../images/placeholder.jpg) ;
         width: 100%;
-        height:100vh;
+        height:95vh;
         background-position: center left, center;
         background-repeat: no-repeat, no-repeat;
         background-size: 130px, cover;
@@ -129,17 +144,22 @@ a {
     }
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 60em) { 
+    
+    .pad-top-3{
+        padding-top: 0.7500rem;
+    }
+    
     .grey {
         filter: url(filters.svg#grayscale)
         filter: gray;
         -webkit-filter: grayscale(1);
-}
+    }
 
     .grey:hover {
         filter:none;
         -webkit-filter: none;
-}
+    }
     
 }
 
