@@ -90,13 +90,13 @@ a {
 }
 
 .sum {
-    margin-top: 20em;
+    margin-top: 65%;
     position: absolute;    
 }
  .portfolio img {
         width: 100%;
          margin: 0 auto;
-    display: block;
+        display: block;
     }
 
 .billboard {
@@ -144,7 +144,7 @@ a {
     }
     
     .sum {
-        margin-top: -1em;
+        margin-top: 3em;
         position: absolute;    
     }
 }
