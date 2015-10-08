@@ -26,6 +26,27 @@ body {
     text-align: left;
 }
 
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -4em;
+    background-color: #818181;
+    color: #fff;
+    font-weight: 100;
+    padding: 0.75em 0.75em;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.skip-links a:focus {
+    top: 0;
+}
+
 header {
     padding: 0;
 }
