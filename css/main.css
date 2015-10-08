@@ -110,7 +110,7 @@ a {
 
 .nav-bottom {
     list-style: none;
-    margin-left: .5em;
+    
 }
 
 .nav-bottom a {
@@ -118,6 +118,7 @@ a {
     float: right;
     text-decoration: none;
     display:inline-block;
+    font-size: 100%;
 }
 
 .nav-bottom li:hover,
@@ -164,9 +165,7 @@ a {
     .grey:hover {
         filter:none;
         -webkit-filter: none;
-    }
-
-    
+    }   
 }
 
 @media only screen and (min-width: 90em) {   

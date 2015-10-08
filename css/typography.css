@@ -1,6 +1,7 @@
 html {
   font-family:'Bubbler One', sans-serif;
   line-height: 1.3em;
+  font-size: 115%;  
 }
 
 p, .para {
@@ -11,7 +12,7 @@ p, .para {
 @media only screen and (min-width: 60em) {
 
   html {
-    font-size: 110%;
+    font-size: 130%;
   }
 
 }
