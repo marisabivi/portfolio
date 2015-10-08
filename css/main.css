@@ -89,14 +89,15 @@ a {
     transform: rotate(-45deg); 
 }
 
-.hide-2 {
+.sum {
+    margin-top: 20em;
+    position: absolute;    
+}
+ .portfolio img {
+        width: 100%;
+         margin: 0 auto;
     display: block;
-    
-}
-
-.hide-1 {
-     height: 0;
-}
+    }
 
 .billboard {
     background-image:url(../images/dia.svg), url(../images/placeholder.jpg) ;
@@ -135,17 +136,16 @@ a {
         background-size: 130px, cover;
     }
     
-    .hide-2 {
-        height: 0;
-        width: 0;
-        opacity: 0;
-        display: none;
-        visibility: hidden;
-    
-    }
-
-    .hide-1 {
+    .portfolio img {
+        width: 90%;
         display: block;
+        margin-left: 110%;
+        margin-right: 0 auto;
+    }
+    
+    .sum {
+        margin-top: -1em;
+        position: absolute;    
     }
 }
 
