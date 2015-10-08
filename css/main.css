@@ -90,11 +90,12 @@ a {
 }
 
 .hide-2 {
-    margin: 2em 0 1px 0;
+    display: block;
+    
 }
 
 .hide-1 {
-    display: none;
+     height: 0;
 }
 
 .billboard {
@@ -106,7 +107,7 @@ a {
     background-size: 100px, cover;
 }
 
-.work {
+.bucket img {
     width: 100%;
     margin: 0 auto;
     display: block;
@@ -135,8 +136,12 @@ a {
     }
     
     .hide-2 {
-            display:none;
-            visibility: none;
+        height: 0;
+        width: 0;
+        opacity: 0;
+        display: none;
+        visibility: hidden;
+    
     }
 
     .hide-1 {
@@ -160,6 +165,7 @@ a {
         filter:none;
         -webkit-filter: none;
     }
+
     
 }
 
