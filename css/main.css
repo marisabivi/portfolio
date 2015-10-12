@@ -144,7 +144,7 @@ a {
 
 .nav-bottom li :hover,
 .nav-bottom li :focus,
-.nav-bottom li :focus,{
+.nav-bottom li :focus {
     border-top: 1px solid white;
     border-bottom:1px solid white;
     width: 20%;
@@ -178,7 +178,7 @@ a {
     }
     
     .grey {
-        filter: url(filters.svg#grayscale)
+        filter: url(filters.svg#grayscale);
         filter: gray;
         -webkit-filter: grayscale(1);
     }
