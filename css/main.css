@@ -83,6 +83,10 @@ a {
     display:block;
 }
 
+.social {
+   margin-left: -12%;
+}
+
 .social li {
     list-style: none;
     display: inline-block;
@@ -91,7 +95,6 @@ a {
 .nav li {
      list-style: none;
      text-align: left;
-     margin-left: .5em;
 }
 
 .nav .a:hover,
