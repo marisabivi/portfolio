@@ -95,7 +95,8 @@ a {
 
 .social li {
     list-style: none;
-    display: inline-block;
+    display: inline-block;'
+    float:right;
 }
 
 .nav li {
@@ -126,6 +127,10 @@ a {
     background-position: center top, center;
     background-repeat: no-repeat, no-repeat;
     background-size: 100px, cover;
+}
+
+.part2 {
+    background-color: #1ca8af;
 }
 
 .bucket img {
