@@ -1,0 +1,202 @@
+@-moz-viewport {width: device-width; scale:1;}
+@-ms-viewport {width: device-width; scale:1;}
+@-o-viewport {width: device-width; scale:1;}
+@-webkit-viewport {width: device-width; scale:1;}
+@viewport {width: device-width; scale:1;}
+
+html {
+    box-sizing: border-box;
+    
+    -moz-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+    text-size-adjust:100%;
+    background-color: #178e9c;
+}
+
+*, *::before, *::after {
+ box-sizing: inherit;   
+}
+
+body {
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -4em;
+    background-color: #818181;
+    color: #fff;
+    font-weight: 100;
+    padding: 0.75em 0.75em;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.skip-links a:focus {
+    top: 0;
+}
+
+header {
+    padding: 0;
+}
+
+.logo {
+    width: 95%;
+    height: auto;
+    padding-left: 1.7em;
+    padding-bottom: 2em;
+}
+
+.text {
+    margin-left: 1.2em; 
+}
+
+.text2 {
+   margin-left: 2.8em;  
+}
+
+.line{
+    height:1px;
+    border-bottom:1px solid black;
+    width: 88%;
+    align-content: center;
+}
+
+.nav {
+    top: 1.8em;
+    right: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display:block;
+}
+
+.social {
+   margin-left: -15%;
+}
+
+.social li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav li {
+     list-style: none;
+     text-align: left;
+}
+
+.nav li :hover,
+.nav li :focus,
+.nav li :active {
+    background-color:#098491;
+    width: 88%;
+}
+
+.media {
+    height: 35px;
+    padding-right: 10px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); 
+}
+
+.billboard {
+    background-image:url(../images/dia.svg), url(../images/me.jpg) ;
+    width: 100%;
+    height:61vh;
+    background-position: center top, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100px, cover;
+}
+
+.part2 {
+    background-color: #1ca8af;
+}
+
+.bucket img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.pad-top-3{
+        padding-top: 1.5rem;
+    }
+
+.nav-bottom {
+    list-style: none;
+}
+
+.nav-bottom a {
+    color: white;
+    float: right;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 100%;    
+}
+
+.nav-bottom li :hover,
+.nav-bottom li :focus,
+.nav-bottom li :focus {
+    border-top: 1px solid white;
+    border-bottom:1px solid white;
+    width: 75px;
+    text-align: center;
+    align-content: center;
+}
+
+@media only screen and (min-width: 25em) {
+    
+}
+
+@media only screen and (min-width: 38em) {
+     .island-2-2 {
+        padding: 0.7500rem;
+        } 
+    
+    .billboard {
+        background-image:url(../images/dia2.svg), url(../images/me.jpg) ;
+        width: 100%;
+        height:95vh;
+        background-position: center left, center;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 130px, cover;
+    }
+
+}
+
+@media only screen and (min-width: 60em) { 
+    
+    .pad-top-3{
+        padding-top: 0.7500rem;
+    }
+    
+    .grey {
+        filter: url(filters.svg#grayscale);
+        filter: gray;
+        -webkit-filter: grayscale(1);
+    }
+
+    .grey:hover {
+        filter:none;
+        -webkit-filter: none;
+    }   
+}
+
+@media only screen and (min-width: 90em) {   
+    
+}
