@@ -3,21 +3,23 @@ layout: default
 ---    
     <main class="part2"> 
         <h2 class="title push-none pad-top text-center">MY WORK</h2>
+        
           <div class="grid" id="portfolio">
+              <!-----------------------one------------------------->  
               
-              
-<!-----------------------one------------------------->   
+               {% for work in site.data.work %}
               <div class="bucket unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-1-4">
-                {% for work in site.data.work %}
-                    <img src="{{site.baseurl}}/images/work/{{work.image}}" alt="" id="1">
+                
+                    <img src="{{site.baseurl}}/images/piece/{{work.image}}" alt="" id="1">
                </div>
                <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
-            
                    <h2 class="push-none giga">{{work.title}}</h2>
                    <p>{{work.info}}</p>
-             {% endfor %}
+             
                    </div>
+              {% endfor %}
         </div>
+        
               
 <!------------------------two -----------------------
                 <<div class="bucket unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-1-4">
