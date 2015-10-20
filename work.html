@@ -10,12 +10,11 @@ layout: default
                {% for work in site.data.work %}
               <div class="bucket unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-1-4">
                 
-                    <img src="{{site.baseurl}}/images/piece/{{work.image}}" alt="" id="1">
+                    <img src="{{site.baseurl}}/images/piece/{{work.image}}" alt="" id="{{work.number}}">
                </div>
                <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
                    <h2 class="push-none giga">{{work.title}}</h2>
                    <p>{{work.info}}</p>
-             
                    </div>
               {% endfor %}
         </div>
