@@ -16,18 +16,6 @@
         <loc>http://marisabivi.github.io/portfolio//work/</loc>
          <changefreq>monthly</changefreq>
     </url>
-    
-    {% for post in site.posts %}
-        {% if page.layout %}
-            {% include sitemap-entry.xml entry=post %}
-        {% endif %}
-    {% endfor %}
-    
-    {% for pages in site.pages %}
-        {% if page.layout %}
-            {% include sitemap-entry.xml entry=pages %}
-        {% endif %}
-    {% endfor %}
 
 
 </urlset>             
