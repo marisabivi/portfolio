@@ -4,6 +4,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
+    
+    <url>
+        <loc>http://marisabivi.github.io/portfolio/</loc>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    
+    
+    <url><loc>http://marisabivi.github.io/portfolio//work/</loc>
+    </url>
     {% for post in site.posts %}
         {% if page.layout %}
             {% include sitemap-entry.xml entry=post %}
