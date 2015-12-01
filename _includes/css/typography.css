@@ -35,12 +35,6 @@ html {
   font-size: 115%;  
 }
 
-.fonts-loaded {
-  font-family:'Bubbler One', sans-serif;
-  line-height: 1.3em;
-  font-size: 115%;  
-}
-
 p, .para {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
