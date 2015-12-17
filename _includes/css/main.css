@@ -186,8 +186,7 @@ a {
     }
     
     .grey {
-        filter: url(filters.svg#grayscale);
-        filter: gray;
+        filter: grayscale(1);
         -webkit-filter: grayscale(1);
     }
 
