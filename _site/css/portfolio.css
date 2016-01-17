@@ -1633,12 +1633,17 @@ a {
 
 .part2 {
     background-color: white;
+    /**background-color: #1ca8af;**/
 }
 
 .bucket img {
     width: 100%;
     margin: 0 auto;
     display: block;
+}
+
+.work {
+    width: 50%;
 }
 
 .pad-top-3{
