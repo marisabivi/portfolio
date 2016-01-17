@@ -115,7 +115,7 @@ a {
 }
 
 .billboard {
-    background-image:url(../images/dia.svg), url(../images/me.jpg) ;
+    background-image:url(../images/dia.svg), url(../images/me-1.jpg) ;
     width: 100%;
     height:61vh;
     background-position: center top, center;
