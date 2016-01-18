@@ -53,8 +53,17 @@ header {
 .logo {
     width: 95%;
     height: auto;
+    padding-top: 1em;
     padding-left: 1.7em;
     padding-bottom: 2em;
+}
+
+.logo2 {
+    width: 2em;
+    height: auto;
+    padding-top: 1em;
+    padding-left: 1.7em;
+    padding-bottom: .7em;
 }
 
 .text {
@@ -75,6 +84,14 @@ header {
 .nav {
     top: 1.8em;
     right: 0;
+}
+
+.arrow {
+    padding-top: .4em;
+    text-align: right;
+    float: right;
+    font-size: 2.5em;
+    width:1.3em;
 }
 
 a {
@@ -124,7 +141,7 @@ a {
 }
 
 .part2 {
-    background-color: grey;
+    background-color: #f9ffff;
     /**background-color: #1ca8af;**/
 }
 
@@ -134,8 +151,9 @@ a {
     display: block;
 }
 
-.work {
-    width: 2em;
+img.work {
+    width: 25%;
+    height: auto;    
 }
 
 .pad-top-3{
@@ -165,6 +183,13 @@ a {
 }
 
 @media only screen and (min-width: 25em) {
+    .logo2 {
+        width: 6em;
+        height: auto;
+        padding-top: 1em;
+        padding-left: 1.7em;
+        padding-bottom: .7em;
+    }
     
 }
 
@@ -182,6 +207,18 @@ a {
         background-size: 130px, cover;
     }
 
+    img.work {
+        width: 25%;
+        height: auto;    
+    }
+    
+    .logo2 {
+        width: 35%;
+        height: auto;
+        padding-top: 1em;
+        padding-left: 1.7em;
+        padding-bottom: .7em;
+    }
 }
 
 @media only screen and (min-width: 60em) { 
@@ -190,15 +227,23 @@ a {
         padding-top: 0.7500rem;
     }
     
-    .grey {
+    img.grey {
         filter: grayscale(1);
         -webkit-filter: grayscale(1);
     }
 
-    .grey:hover {
+    img.grey:hover {
         filter:none;
         -webkit-filter: none;
     }   
+    
+    .logo2 {
+        width: 8em;
+        height: auto;
+        padding-top: 1em;
+        padding-left: 1.7em;
+        padding-bottom: .7em;
+    }
 }
 
 @media only screen and (min-width: 90em) {   
