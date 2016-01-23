@@ -11,7 +11,6 @@ html {
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
     text-size-adjust:100%;
-    background-color: #178e9c;
 }
 
 *, *::before, *::after {
@@ -23,6 +22,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: left;
+    background-color: #178e9c;
 }
 
 .skip-links {
@@ -34,7 +34,7 @@ body {
 .skip-links a {
     position: absolute;
     top: -4em;
-    background-color: #818181;
+    background-color:#178e9c;
     color: #fff;
     font-weight: 100;
     padding: 0.75em 0.75em;
@@ -132,6 +132,18 @@ img.work {
 .social li {
     list-style: none;
     display: inline-block;
+    padding: 0 1em;
+    position: sticky;
+}
+
+.social li :hover,
+.social li :focus,
+.social li :active {
+    list-style: none;
+    display: inline-block;
+    border-top: 1px solid white;
+    border-bottom:1px solid white;
+    width: 75px;
 }
 
 .nav {
@@ -168,6 +180,7 @@ img.work {
 
 .nav-bottom {
     list-style: none;
+    background-color: black;
 }
 
 .nav-bottom a {
