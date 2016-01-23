@@ -59,7 +59,7 @@ header {
 }
 
 .logo2 {
-    width: 2em;
+    width: 6em;
     height: auto;
     padding-top: 1em;
     padding-left: 1.7em;
@@ -148,6 +148,8 @@ img.work {
 .nav li :focus,
 .nav li :active {
     width: 88%;
+    background-color: #1ca8af;
+    
 }
 
 .black {
