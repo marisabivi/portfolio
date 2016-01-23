@@ -1442,6 +1442,10 @@ sub {
     padding-top: -2em;
 }
 
+.pad-b-none{
+    padding-bottom: -6em;    
+}
+
 .pad-bottom, .pad-b {
   padding-bottom: 1.5rem;
 }
@@ -1589,11 +1593,6 @@ header {
     align-content: center;
 }
 
-.nav {
-    top: 1.8em;
-    right: 0;
-}
-
 .arrow {
     padding-top: .4em;
     text-align: right;
@@ -1608,36 +1607,6 @@ a {
     display:block;
 }
 
-.social {
-    margin-right: 2em;
-}
-
-.social li {
-    list-style: none;
-    display: inline-block;
-}
-
-.nav li {
-     list-style: none;
-     text-align: left;
-}
-
-.nav li :hover,
-.nav li :focus,
-.nav li :active {
-    background-color:#098491;
-    width: 88%;
-}
-
-.media {
-    height: 35px;
-    padding-right: 10px;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg); 
-}
 
 .billboard {
     background-image:url(../images/dia.svg), url(../images/me-2.jpg) ;
@@ -1660,13 +1629,52 @@ a {
 }
 
 img.work {
-    width: 25%;
+    width:50%;
     height: auto;    
 }
 
 .pad-top-3{
-        padding-top: 1.5rem;
+    padding-top: 1.5rem;
     }
+
+.social {
+    margin-right: 2em;
+}
+
+.social li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav {
+    top: 1.8em;
+    right: 0;
+}
+
+.nav li {
+     list-style: none;
+     text-align: left;
+}
+
+.nav li :hover,
+.nav li :focus,
+.nav li :active {
+    width: 88%;
+}
+
+.black {
+    background-color: black;
+}
+
+.media {
+    height: 35px;
+    padding-right: 10px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); 
+}
 
 .nav-bottom {
     list-style: none;
@@ -1716,7 +1724,7 @@ img.work {
     }
 
     img.work {
-        width: 25%;
+        width: 50%;
         height: auto;    
     }
     
@@ -1726,6 +1734,14 @@ img.work {
         padding-top: 1em;
         padding-left: 1.7em;
         padding-bottom: .7em;
+    }
+    
+    .arrow {
+        padding-top: .6em;
+        text-align: right;
+        float: right;
+        font-size: 2.5em;
+        width: 1.3em;
     }
 }
 
@@ -1751,6 +1767,14 @@ img.work {
         padding-top: 1em;
         padding-left: 1.7em;
         padding-bottom: .7em;
+    }
+    
+    .arrow {
+        padding-top: .7em;
+        text-align: right;
+        float: right;
+        font-size: 2.5em;
+        width: 1.3em;
     }
 }
 
