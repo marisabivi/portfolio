@@ -22,7 +22,6 @@ body {
     margin: 0;
     padding: 0;
     text-align: left;
-    background-color: #178e9c;
 }
 
 .skip-links {
@@ -94,7 +93,6 @@ a {
     text-decoration: none;
     display:block;
 }
-
 
 .billboard {
     background-image:url(../images/dia.svg), url(../images/me-2.jpg) ;
