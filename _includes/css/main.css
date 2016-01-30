@@ -22,6 +22,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: left;
+    /** background-color: #178e9c; **/
 }
 
 .skip-links {
@@ -75,9 +76,13 @@ header {
 
 .line{
     height:1px;
-    border-bottom:1px solid black;
+    border-bottom:1px solid #F8BE58;
     width: 88%;
     align-content: center;
+}
+
+.top {
+    background-color: #000000;
 }
 
 .arrow {
@@ -89,9 +94,32 @@ header {
 }
 
 a {
-    color: black;
+    color: #F8BE58;
     text-decoration: none;
     display:block;
+}
+
+.nav {
+    top: 1.8em;
+    right: 0;
+}
+
+.nav li {
+     list-style: none;
+     text-align: left;
+}
+
+.nav li :hover,
+.nav li :focus,
+.nav li :active {
+    width: 88%;
+    background-color: #28281E; /**yellow**/
+    /** blue background-color: #283435 **/
+    
+}
+
+.bio {
+    color: #F8BE58;
 }
 
 .billboard {
@@ -127,11 +155,15 @@ img.work {
     margin-right: 2em;
 }
 
+.social ul {
+    margin: .5em 2em;
+}
+
+
 .social li {
     list-style: none;
     display: inline-block;
-    padding: 0 1em;
-    position: sticky;
+    /*position: sticky;*/
 }
 
 .social li :hover,
@@ -139,41 +171,25 @@ img.work {
 .social li :active {
     list-style: none;
     display: inline-block;
-    border-top: 1px solid white;
-    border-bottom:1px solid white;
-    width: 75px;
+    width: 50px;
 }
 
-.nav {
-    top: 1.8em;
-    right: 0;
-}
-
-.nav li {
-     list-style: none;
-     text-align: left;
-}
-
-.nav li :hover,
-.nav li :focus,
-.nav li :active {
-    width: 88%;
-    background-color: #1ca8af;
-    
+.blue {
+    background-color: #178e9c;
 }
 
 .black {
     background-color: black;
 }
 
+footer {
+    background-color: black;
+}
+
 .media {
-    height: 35px;
+    font-size: 35px;
+    font-family: portfolio-2;
     padding-right: 10px;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg); 
 }
 
 .nav-bottom {
@@ -198,6 +214,18 @@ img.work {
     text-align: center;
     align-content: center;
 }
+
+footer ul {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+}
+
+footer li {
+    display: inline-block;
+    float: right;
+}
+
 
 @media only screen and (min-width: 25em) {
     .logo2 {
