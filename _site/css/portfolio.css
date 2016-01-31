@@ -1675,7 +1675,7 @@ img.work {
 .social li {
     list-style: none;
     display: inline-block;
-    /*position: sticky;*/
+    text-align: center;
 }
 
 .social li :hover,
@@ -1700,8 +1700,11 @@ footer {
 
 .media {
     font-size: 35px;
-    font-family: portfolio-2;
+    font-family: portfolio;
     padding-right: 10px;
+    
+    align-content: center;
+    display: inline-block;
 }
 
 .nav-bottom {
