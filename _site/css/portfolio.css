@@ -1608,7 +1608,6 @@ header {
 a {
     color: #F8BE58;
     text-decoration: none;
-    display:block;
 }
 
 .nav {
@@ -1663,27 +1662,8 @@ img.work {
     padding-top: 1.5rem;
     }
 
-.social {
-    margin-right: 2em;
-}
-
 .social ul {
     margin: .5em 2em;
-}
-
-
-.social li {
-    list-style: none;
-    display: inline-block;
-    text-align: center;
-}
-
-.social li :hover,
-.social li :focus,
-.social li :active {
-    list-style: none;
-    display: inline-block;
-    width: 50px;
 }
 
 .blue {
@@ -1699,12 +1679,18 @@ footer {
 }
 
 .media {
-    font-size: 35px;
+    font-size: 2em;
     font-family: portfolio;
     padding-right: 10px;
-    
     align-content: center;
     display: inline-block;
+    color: white;
+    padding-bottom: 1em;
+}
+
+.social {
+    margin: 0 2em;
+    text-align: center;  
 }
 
 .nav-bottom {
@@ -1723,14 +1709,15 @@ footer {
 .nav-bottom li :hover,
 .nav-bottom li :focus,
 .nav-bottom li :focus {
-    border-top: 1px solid white;
-    border-bottom:1px solid white;
+    border-top: 1px solid #F8BE58;
+    border-bottom:1px solid #F8BE58;
     width: 75px;
     text-align: center;
     align-content: center;
 }
 
 footer ul {
+    padding: .5em;
     display: inline-block;
     position: absolute;
     width: 100%;
@@ -1740,7 +1727,6 @@ footer li {
     display: inline-block;
     float: right;
 }
-
 
 @media only screen and (min-width: 25em) {
     .logo2 {
