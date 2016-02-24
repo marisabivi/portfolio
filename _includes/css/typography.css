@@ -221,6 +221,10 @@ sub {
   padding-bottom: 0.3750rem;
 }
 
+.pad-left-half {
+    padding-left: 1.5rem;
+}
+
 .island {
   padding: 1.5rem;
 }
