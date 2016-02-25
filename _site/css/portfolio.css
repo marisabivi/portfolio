@@ -1643,7 +1643,7 @@ a {
 
 .nav li :hover,
 .nav li :focus,
-.navli :active {
+.nav li :active {
     /*padding-top:.45em;
     padding-bottom: .5em;*/
     background-color: #28281E;
